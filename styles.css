@@ -606,6 +606,10 @@
     border-radius: 20px;
     
   }
+  .rectangle-c:hover {
+    background-color: #b5651d;
+    color: #fff;
+}
   .black-coffee{
     display: block;
     position: relative;
@@ -671,6 +675,10 @@
     border: 1px solid #021526;
     border-radius: 20px;
   }
+.rectangle-f:hover {
+    background-color: #b5651d;
+    color: #fff;
+}
   .hot-chocolate {
     display: block;
     position: relative;
@@ -736,6 +744,10 @@
     border-radius: 20px;
     background: #ffffff;
   }
+.rectangle-13:hover {
+    background-color: #b5651d;
+    color: #fff;
+}
   .cappuccino{
     display: block;
     position: relative;
@@ -801,6 +813,10 @@
     z-index: 39;
     border-radius: 20px;
   }
+.rectangle-17:hover {
+    background-color: #b5651d;
+    color: #fff;
+}
   .latte {
     display: block;
     position: relative;
@@ -1083,6 +1099,10 @@
     z-index: 55;
     border-radius: 20px;
   }
+.rectangle-27:hover {
+    background-color: #b5651d;
+    color: #fff;
+}
   .flex-row-ba {
     position: relative;
     width: 494px;
@@ -1531,6 +1551,10 @@
     z-index: 82;
     border-radius: 150px;
   }
+.rectangle-3f:hover {
+    background-color: blue violet;
+    color: #fff;
+}
   .ellipse-40 {
     position: absolute;
     width: 56px;
