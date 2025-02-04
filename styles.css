@@ -1552,7 +1552,7 @@
     border-radius: 150px;
   }
 .rectangle-3f:hover {
-    background-color: blue violet;
+    background-color: powderblue;
     color: #fff;
 }
   .ellipse-40 {
@@ -1610,6 +1610,7 @@
     text-align: left;
     white-space: nowrap;
     z-index: 88;
+      cursor:pointer;
   }
   .useful-links {
     display: flex;
@@ -1619,6 +1620,7 @@
     height: 31px;
     top: 0;
     left: 532px;
+    cursor: pointer;
     color: #ffffff;
     font-family: IBM Plex Sans, var(--default-font-family);
     font-size: 24px;
@@ -1634,6 +1636,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 31px;
+    cursor:pointer;
     top: 0;
     left: 834px;
     color: #ffffff;
@@ -1677,6 +1680,7 @@
     height: 21px;
     top: 0;
     left: 532px;
+      cursor:pointer;
     color: #ffffff;
     font-family: IBM Plex Sans, var(--default-font-family);
     font-size: 16px;
@@ -1703,6 +1707,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
+    cursor:pointer;
     height: 21px;
     top: 27px;
     left: 532px;
@@ -1724,6 +1729,7 @@
     top: 54px;
     left: 532px;
     color: #ffffff;
+    cursor: pointer;
     font-family: IBM Plex Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 500;
@@ -1744,6 +1750,7 @@
     font-family: IBM Plex Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 500;
+    cursor:pointer;
     line-height: 20.8px;
     text-align: left;
     white-space: nowrap;
@@ -1787,6 +1794,7 @@
     top: 0;
     left: 14px;
     color: #ffffff;
+    cursor:pointer;
     font-family: IBM Plex Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
