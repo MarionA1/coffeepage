@@ -36,6 +36,10 @@
     margin: 0 0 0 0;
     z-index: 103;
   }
+.flex-row-ae :where(#menu-close-button, #menu-open-button) {
+    display: none;
+}
+
   .rectangle {
     position: absolute;
     width: 1440px;
@@ -1814,9 +1818,35 @@
     background-size: 100% 100%;
     z-index: 101;
   }
-  @media screen and (max-width: 768px) {
-    .navbar {
+  @media screen and (max-width: 900px) {
+      :root {
+        --font-size-m: 1rem;
+        --font-size-l:1.3rem;
+        --font-size-xl: 1.5rem;
+        --font-size-xxl: 1.8rem;
+    }
+      body.show-mobile-menu header::before {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .flex-row-ae {
         flex-direction: column;
         align-items: center;
+    }
+    .flex-row-ae :where(#menu-close-button, #menu-open-button) {
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .flex-row-ae #menu-close-button {
+        position: absolute;
+        right: 50px;
+        top: 50px;
     }
   }
