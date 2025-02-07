@@ -168,6 +168,26 @@
     </div>
   </body>
   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-open-button");
+    const mobileMenu = document.querySelector(".navbar .nav-menu");
+    const closeButton = document.getElementById("menu-close-button");
+    const body = document.body;
+
+    if (menuToggle && mobileMenu && closeButton) {
+        // Open mobile menu
+        menuToggle.addEventListener("click", function () {
+            body.classList.add("show-mobile-menu");
+            mobileMenu.style.left = "0";
+        });
+
+        // Close mobile menu
+        closeButton.addEventListener("click", function () {
+            body.classList.remove("show-mobile-menu");
+            mobileMenu.style.left = "-300px";
+        });
+    }
+});
   document.addEventListener("DOMContentLoaded", function () {
     // Add hover effects to buttons
     const buttons = document.querySelectorAll("button");
